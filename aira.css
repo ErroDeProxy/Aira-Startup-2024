@@ -1,0 +1,58 @@
+body {
+    font-family: Roboto, Arial;
+    background-color: rgb(227, 227, 227);
+    padding-bottom: 500px;
+}
+main {
+    outline: 0;
+}
+.perfil-menu {
+    border: none;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 0px;
+    height: 55px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: 0;
+    background-color: rgb(230, 230, 230);
+}
+.perfil-menu:hover {
+    background-color: rgb(208, 208, 208);
+    transition: 0.15s;
+}
+.profile-pic {
+    height: 40px;
+    margin-right: 3px;
+}
+.profile-down {
+    height: 25px;
+    margin-left: 3px;
+}
+.hamburger-menu {
+    margin-right: 206px;
+    height: 40px;
+    cursor: pointer;
+}
+.hamburger-button {
+    border: none;
+    border-style: solid;
+    border-width: 0px;
+    display: flex;
+    width: 55px;
+    background-color: rgb(223, 247, 255);
+    outline: 0;
+}
+.hamburger-menu:hover {
+    opacity: 0.7;
+}
+.aira-logo {
+    text-align: center;
+    height: 340px;
+    margin-left: 150px;
+    cursor: pointer;
+    display: flex;
+
+}
